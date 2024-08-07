@@ -18,6 +18,14 @@ public class HomeController : Controller
         return View();
     }
 
+    public IActionResult Deportes()
+    {
+        //ViewBag.ListaDeportes
+        return View();
+    }
+
+
+
     public IActionResult Privacy()
     {
         return View();

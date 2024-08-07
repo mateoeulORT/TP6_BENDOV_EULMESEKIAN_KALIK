@@ -18,12 +18,40 @@ build_property.GenerateRazorMetadataSourceChecksumAttributes =
 build_property.MSBuildProjectDirectory = z:\Info\4to año\Programación\3er bimestre\TP06_BenDov_Eulmesekian_Kalik
 build_property._RazorSourceGeneratorDebug = 
 
+[z:/Info/4to año/Programación/3er bimestre/TP06_BenDov_Eulmesekian_Kalik/Views/Home/AgregarDeportista.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxBZ3JlZ2FyRGVwb3J0aXN0YS5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[z:/Info/4to año/Programación/3er bimestre/TP06_BenDov_Eulmesekian_Kalik/Views/Home/Deportes.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxEZXBvcnRlcy5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
 [z:/Info/4to año/Programación/3er bimestre/TP06_BenDov_Eulmesekian_Kalik/Views/Home/Index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxJbmRleC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
+[z:/Info/4to año/Programación/3er bimestre/TP06_BenDov_Eulmesekian_Kalik/Views/Home/Layout.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxMYXlvdXQuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[z:/Info/4to año/Programación/3er bimestre/TP06_BenDov_Eulmesekian_Kalik/Views/Home/Paises.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxQYWlzZXMuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
 [z:/Info/4to año/Programación/3er bimestre/TP06_BenDov_Eulmesekian_Kalik/Views/Home/Privacy.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxQcml2YWN5LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[z:/Info/4to año/Programación/3er bimestre/TP06_BenDov_Eulmesekian_Kalik/Views/Home/VerDetalleDeporte.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxWZXJEZXRhbGxlRGVwb3J0ZS5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[z:/Info/4to año/Programación/3er bimestre/TP06_BenDov_Eulmesekian_Kalik/Views/Home/VerDetalleDeportista.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxWZXJEZXRhbGxlRGVwb3J0aXN0YS5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[z:/Info/4to año/Programación/3er bimestre/TP06_BenDov_Eulmesekian_Kalik/Views/Home/VerDetallePais.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxWZXJEZXRhbGxlUGFpcy5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
 [z:/Info/4to año/Programación/3er bimestre/TP06_BenDov_Eulmesekian_Kalik/Views/Shared/Error.cshtml]

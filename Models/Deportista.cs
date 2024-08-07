@@ -1,6 +1,6 @@
 using System.Data.SqlClient;
 using Dapper;
-class Deportista
+public class Deportista
 {
      public int IdDeportista {get; set;}
     public string Apellido {get; set;}
@@ -9,5 +9,5 @@ class Deportista
     public string Foto {get; set;}
     public int IdPais {get; set;}
     public int IdDeporte {get; set;}
-    public List<Deportista> listaDeportes = new List<Deportista>();
+
 }
