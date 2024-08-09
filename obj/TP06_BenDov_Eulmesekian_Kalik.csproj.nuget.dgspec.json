@@ -1,23 +1,23 @@
 {
   "format": 1,
   "restore": {
-    "Z:\\Info\\4to año\\Programación\\3er bimestre\\TP06_BenDov_Eulmesekian_Kalik\\TP06_BenDov_Eulmesekian_Kalik.csproj": {}
+    "Z:\\Programacion 4to BEN_DOV\\TP6_BENDOV_EULMESEKIAN_KALIK\\TP06_BenDov_Eulmesekian_Kalik.csproj": {}
   },
   "projects": {
-    "Z:\\Info\\4to año\\Programación\\3er bimestre\\TP06_BenDov_Eulmesekian_Kalik\\TP06_BenDov_Eulmesekian_Kalik.csproj": {
+    "Z:\\Programacion 4to BEN_DOV\\TP6_BENDOV_EULMESEKIAN_KALIK\\TP06_BenDov_Eulmesekian_Kalik.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "Z:\\Info\\4to año\\Programación\\3er bimestre\\TP06_BenDov_Eulmesekian_Kalik\\TP06_BenDov_Eulmesekian_Kalik.csproj",
+        "projectUniqueName": "Z:\\Programacion 4to BEN_DOV\\TP6_BENDOV_EULMESEKIAN_KALIK\\TP06_BenDov_Eulmesekian_Kalik.csproj",
         "projectName": "TP06_BenDov_Eulmesekian_Kalik",
-        "projectPath": "Z:\\Info\\4to año\\Programación\\3er bimestre\\TP06_BenDov_Eulmesekian_Kalik\\TP06_BenDov_Eulmesekian_Kalik.csproj",
-        "packagesPath": "C:\\Users\\48044168\\.nuget\\packages\\",
-        "outputPath": "Z:\\Info\\4to año\\Programación\\3er bimestre\\TP06_BenDov_Eulmesekian_Kalik\\obj\\",
+        "projectPath": "Z:\\Programacion 4to BEN_DOV\\TP6_BENDOV_EULMESEKIAN_KALIK\\TP06_BenDov_Eulmesekian_Kalik.csproj",
+        "packagesPath": "C:\\Users\\48111117\\.nuget\\packages\\",
+        "outputPath": "Z:\\Programacion 4to BEN_DOV\\TP6_BENDOV_EULMESEKIAN_KALIK\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
         ],
         "configFilePaths": [
-          "C:\\Users\\48044168\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\48111117\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
@@ -77,7 +77,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.206/PortableRuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.204/PortableRuntimeIdentifierGraph.json"
         }
       }
     }

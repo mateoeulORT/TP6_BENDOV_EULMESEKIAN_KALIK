@@ -7,25 +7,36 @@ namespace TP06_BenDov_Eulmesekian_Kalik.Controllers;
 public class HomeController : Controller
 {
     private readonly ILogger<HomeController> _logger;
-
     public HomeController(ILogger<HomeController> logger)
     {
         _logger = logger;
     }
-
     public IActionResult Index()
     {
         return View();
     }
-
     public IActionResult Deportes()
     {
-        //ViewBag.ListaDeportes
+        ViewBag.ListaDeportes = DB.ListaDeportes();
         return View();
     }
-
-
-
+    public IActionResult Paises()
+    {
+        ViewBag.ListaPaises = DB.ListarPaises();
+        return View();
+    }
+    public IActionResult VerDetalleDeporte(int idDeporte)
+    {
+        ViewBag.IdDeporte = idDeporte;
+        ViewBag.ListaDeportistasXDeporte = DB.ListarDeportistasXDeporte(idDeporte);
+        return View();
+    }
+    public IActionResult VerDetallePais(int idDPais)
+    {
+        ViewBag.IdPais = idDPais;
+        ViewBag.ListaDeportistasXPais = DB.ListarDeportistasXPais(idPais);
+        return View();
+    }
     public IActionResult Privacy()
     {
         return View();

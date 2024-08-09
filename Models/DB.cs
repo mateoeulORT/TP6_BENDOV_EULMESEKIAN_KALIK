@@ -60,17 +60,34 @@ public class DB
     {
         using (SqlConnection db = new SqlConnection(_connectionString))
         {
-            string sql = "SELECT * FROM Pais";
+            string sql = "SELECT * FROM Paises";
             _ListPaises = db.Query<Pais>(sql).ToList();
         }
         return _ListPaises;
-        
+    }
+    public List<Deporte> ListaDeportes()
+    {
+        using (SqlConnection db = new SqlConnection(_connectionString))
+        {
+            string sql = "SELECT * FROM Deportes";
+            _ListDeportes = db.Query<Deporte>(sql).ToList();
+        }
+        return _ListDeprtes;
+    }
+    public List<Deportista> ListarDeportistas()
+    {
+        using (SqlConnection db = new SqlConnection(_connectionString))
+        {
+            string sql = "SELECT * FROM Deportistas";
+            _ListaDeportistas = db.Query<Deportista>(sql).ToList();
+        }
+        return _ListaDeportistas;
     }
     public List<Deportista> ListarDeportistasXPais(int idPais)
     {
         using (SqlConnection db = new SqlConnection(_connectionString))
         {
-            string sql = "SELECT * FROM Deportista WHERE idPais = @pIdPais";
+            string sql = "SELECT * FROM Deportistas WHERE idPais = @pIdPais";
             _ListaDeportistas = db.Query<Deportista>(sql).ToList();
         }
         return _ListaDeportistas;
