@@ -7,7 +7,7 @@ public class DB
     private List<Deportista> _ListaDeportistas = new List<Deportista>();
     private static string _connectionString = @"Server=localhost;
     DataBase=TP6;Trusted_Connection = True;";
-    public void AgregarDeportista(Deportista deportistaIng)
+    public static void AgregarDeportista(Deportista deportistaIng)
     {
         using (SqlConnection db = new SqlConnection(_connectionString))
         {
@@ -16,7 +16,7 @@ public class DB
         }
 
     }
-    public void EliminarDeportista(int idDeportista)
+    public static void EliminarDeportista(int idDeportista)
     {
         using (SqlConnection db = new SqlConnection(_connectionString))
         {
@@ -24,17 +24,17 @@ public class DB
             db.Execute(sql, new { pIdDeportista = idDeportista });
         }
     }
-    public Deporte? VerInfoDeporte(int idDeporte)
+    public static Deportes? VerInfoDeporte(int idDeporte)
     {
-        Deporte? r = null;
+        Deportes? r = null;
         using (SqlConnection db = new SqlConnection(_connectionString))
         {
             string sql = "SELECT * FROM Deporte WHERE IdDeporte = @pIdDeporte";
-            r = db.QueryFirstOrDefault<Deporte>(sql, new { pIdDeporte = idDeporte });
+            r = db.QueryFirstOrDefault<Deportes>(sql, new { pIdDeporte = idDeporte });
         }
         return r;
     }
-    public Pais? VerInfoPais(int IdPais)
+    public static Pais? VerInfoPais(int IdPais)
     {
         Pais? r = null;
         using (SqlConnection db = new SqlConnection(_connectionString))
@@ -45,7 +45,7 @@ public class DB
         }
         return r;
     }
-    public Deportista? VerInfoDeportista(int idDeportista)
+    public static Deportista? VerInfoDeportista(int idDeportista)
     {
         Deportista? r = null;
         using (SqlConnection db = new SqlConnection(_connectionString))
@@ -56,26 +56,29 @@ public class DB
         }
         return r;
     }
-    public List<Pais> ListarPaises()
+    public static List<Pais> ListarPaises()
     {
+        List<Pais> _ListaPaises = new List<Pais>();
         using (SqlConnection db = new SqlConnection(_connectionString))
         {
             string sql = "SELECT * FROM Paises";
-            _ListPaises = db.Query<Pais>(sql).ToList();
+            _ListaPaises = db.Query<Pais>(sql).ToList();
         }
-        return _ListPaises;
+        return _ListaPaises;
     }
-    public List<Deporte> ListaDeportes()
+    public static List<Deportes> ListarDeportes()
     {
+        List<Deportes> _listaDeportes = new List<Deportes>();
         using (SqlConnection db = new SqlConnection(_connectionString))
         {
             string sql = "SELECT * FROM Deportes";
-            _ListDeportes = db.Query<Deporte>(sql).ToList();
+            _listaDeportes = db.Query<Deportes>(sql).ToList();
         }
-        return _ListDeprtes;
+        return _listaDeportes;
     }
-    public List<Deportista> ListarDeportistas()
+    public static List<Deportista> ListarDeportistas()
     {
+        List<Deportista> _ListaDeportistas = new List<Deportista>();
         using (SqlConnection db = new SqlConnection(_connectionString))
         {
             string sql = "SELECT * FROM Deportistas";
@@ -83,8 +86,9 @@ public class DB
         }
         return _ListaDeportistas;
     }
-    public List<Deportista> ListarDeportistasXPais(int idPais)
+    public static List<Deportista> ListarDeportistasXPais(int pIdPais)
     {
+        List<Deportista> _ListaDeportistas = new List<Deportista>();
         using (SqlConnection db = new SqlConnection(_connectionString))
         {
             string sql = "SELECT * FROM Deportistas WHERE idPais = @pIdPais";
@@ -92,8 +96,9 @@ public class DB
         }
         return _ListaDeportistas;
     }
-    public List<Deportista> ListarDeportistasXDeporte(int idDeporte)
+    public static List<Deportista> ListarDeportistasXDeporte(int pIdDeporte)
     {
+         List<Deportista> _ListaDeportistas = new List<Deportista>();
         using (SqlConnection db = new SqlConnection(_connectionString))
         {
             string sql = "SELECT * FROM Deportistas WHERE idDeporte = @pIdDeporte";
