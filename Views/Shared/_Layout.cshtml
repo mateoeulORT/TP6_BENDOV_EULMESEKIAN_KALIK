@@ -7,6 +7,10 @@
     <link rel="stylesheet" href="~/lib/bootstrap/dist/css/bootstrap.min.css" />
     <link rel="stylesheet" href="~/css/site.css" asp-append-version="true" />
     <link rel="stylesheet" href="~/TP06_BenDov_Eulmesekian_Kalik.styles.css" asp-append-version="true" />
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Matemasie&display=swap" rel="stylesheet">
 </head>
 <body>
 
@@ -14,41 +18,44 @@
         <nav class="navbar navbar-expand-sm navbar-toggleable-sm bg-dark border-bottom box-shadow mb-3" data-bs-theme="dark">
             <div class="container-fluid">
                 <a class="navbar-brand" href='@Url.Action("Index")'> <img src="../img/logo.png" alt="Logo" width="80px" height="80px" class="d-inline-block align-text-top"> </a>
-
                 <div class="navbar-collapse collapse d-sm-inline-flex justify-content-between">
                     <ul class="navbar-nav flex-grow-1">
                         <li class="nav-item">
-                            <a class="nav-link text-light" href='@Url.Action("Historia")'>Historia</a>
+                            <a class="nav-link text-light" href='@Url.Action("Historia")'> <h5>Historia</h5></a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link text-light" href='@Url.Action("Deportes")' >Deportes</a>
+                            <a class="nav-link text-light" href='@Url.Action("Deportes")' > <h5>Deportes</h5></a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link text-light" href='@Url.Action("Paises")' >Paises</a>
+                            <a class="nav-link text-light" href='@Url.Action("Paises")' > <h5>Paises</h5></a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link text-light"  href='@Url.Action("AgregarDeportista")'>Agregar Deportista</a>
+                            <a class="nav-link text-light"  href='@Url.Action("AgregarDeportista")'> <h5>Agregar Deportista</h5></a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link text-light" href='@Url.Action("Creditos")'>Créditos</a>
+                            <a class="nav-link text-light" href='@Url.Action("Creditos")'> <h5>Créditos</h5></a>
                         </li>
                     </ul>
+                    
                 </div>
+                <H2>PARIS 2024</H2>
             </div>
         </nav>
     </header>
     
-    <div class="container">
+    <div class="container-fluid">
         <main role="main" class="pb-3">
             @RenderBody()
         </main>
     </div>
 
-    <footer class="border-top footer text-muted">
-        <div class="container">
+    <footer class="border-top footer text-muted" data-bs-theme="dark">
+        <div class="container-fluid">
             &copy; 2024 - TP06_BenDov_Eulmesekian_Kalik - <a asp-area="" asp-controller="Home" asp-action="Privacy">Privacy</a>
         </div>
     </footer>
+
+
     <script src="~/lib/jquery/dist/jquery.min.js"></script>
     <script src="~/lib/bootstrap/dist/js/bootstrap.bundle.min.js"></script>
     <script src="~/js/site.js" asp-append-version="true"></script>

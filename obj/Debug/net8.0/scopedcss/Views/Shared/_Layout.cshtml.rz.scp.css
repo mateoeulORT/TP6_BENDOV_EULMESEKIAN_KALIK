@@ -1,12 +1,25 @@
 /* Please see documentation at https://learn.microsoft.com/aspnet/core/client-side/bundling-and-minification
 for details on configuring this project to bundle and minify static web assets. */
-*[b-jfonhjcamy]{
+nav[b-jfonhjcamy]{
   border: 1px solid black;
+  font-family: "Matemasie", sans-serif;
+  font-weight: 400;
+  font-style: normal;
 }
 
-
-.nav-item[b-jfonhjcamy]{
+.container-fluid h2[b-jfonhjcamy]{
+  color: white;
+  font-style: NONE;
   margin-right: 2%;
+}
+.container-fluid[b-jfonhjcamy]{
+  margin-left: 2%;
+}
+.nav-item h5:hover[b-jfonhjcamy]{
+  color: rgb(218, 218, 218);
+}
+.nav-item[b-jfonhjcamy]{
+  margin-left: 4%;
   font-size: larger;
 }
 
@@ -50,10 +63,15 @@ button.accept-policy[b-jfonhjcamy] {
   line-height: inherit;
 }
 
+
 .footer[b-jfonhjcamy] {
-  position: absolute;
+  position: relative; /* Cambiado a 'relative' para que no se mueva al hacer scroll */
   bottom: 0;
+  left: 0;
   width: 100%;
-  white-space: nowrap;
+  height: 60px; /* Ajusta según sea necesario */
+  background-color: #f8f9fa; /* Ajusta según el diseño */
   line-height: 60px;
+  text-align: center;
+  z-index: 1000; /* Asegúrate de que esté por encima del contenido si es necesario */
 }
