@@ -1,0 +1,3 @@
+﻿<Project>
+  <Import Project="..\buildMultiTargeting\TP06_BenDov_Eulmesekian_Kalik.props" />
+</Project>

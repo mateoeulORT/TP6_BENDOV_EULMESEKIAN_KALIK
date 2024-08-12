@@ -1,20 +1,20 @@
 {
   "format": 1,
   "restore": {
-    "/Users/cococartera/TP6_BENDOV_EULMESEKIAN_KALIK/TP06_BenDov_Eulmesekian_Kalik.csproj": {}
+    "c:\\Users\\Mateo\\Desktop\\Programacion\\3er bim\\TP6_BENDOV_EULMESEKIAN_KALIK\\TP06_BenDov_Eulmesekian_Kalik.csproj": {}
   },
   "projects": {
-    "/Users/cococartera/TP6_BENDOV_EULMESEKIAN_KALIK/TP06_BenDov_Eulmesekian_Kalik.csproj": {
+    "c:\\Users\\Mateo\\Desktop\\Programacion\\3er bim\\TP6_BENDOV_EULMESEKIAN_KALIK\\TP06_BenDov_Eulmesekian_Kalik.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "/Users/cococartera/TP6_BENDOV_EULMESEKIAN_KALIK/TP06_BenDov_Eulmesekian_Kalik.csproj",
+        "projectUniqueName": "c:\\Users\\Mateo\\Desktop\\Programacion\\3er bim\\TP6_BENDOV_EULMESEKIAN_KALIK\\TP06_BenDov_Eulmesekian_Kalik.csproj",
         "projectName": "TP06_BenDov_Eulmesekian_Kalik",
-        "projectPath": "/Users/cococartera/TP6_BENDOV_EULMESEKIAN_KALIK/TP06_BenDov_Eulmesekian_Kalik.csproj",
-        "packagesPath": "/Users/cococartera/.nuget/packages/",
-        "outputPath": "/Users/cococartera/TP6_BENDOV_EULMESEKIAN_KALIK/obj/",
+        "projectPath": "c:\\Users\\Mateo\\Desktop\\Programacion\\3er bim\\TP6_BENDOV_EULMESEKIAN_KALIK\\TP06_BenDov_Eulmesekian_Kalik.csproj",
+        "packagesPath": "C:\\Users\\Mateo\\.nuget\\packages\\",
+        "outputPath": "c:\\Users\\Mateo\\Desktop\\Programacion\\3er bim\\TP6_BENDOV_EULMESEKIAN_KALIK\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "/Users/cococartera/.nuget/NuGet/NuGet.Config"
+          "C:\\Users\\Mateo\\AppData\\Roaming\\NuGet\\NuGet.Config"
         ],
         "originalTargetFrameworks": [
           "net8.0"
@@ -71,7 +71,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/8.0.204/PortableRuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.303/PortableRuntimeIdentifierGraph.json"
         }
       }
     }
