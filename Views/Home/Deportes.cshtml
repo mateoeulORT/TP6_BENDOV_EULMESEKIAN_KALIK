@@ -1,19 +1,16 @@
-<body class="Index">
+<body class="deportes">
 
-    <header>
+
+    <main>
+        @for(int i = 0; i < ViewBag.ListaDeportes.Count; i++)
+        {
+            @ViewBag.ListaDeportes[i].Nombre;
+            //<img src="../img/" + ViewBag.ListaDeportes[i].Foto alt="">
+        }
         
-
-    </header>
     
-
-    <main>    
-
     </main>
 
-    
-    <footer>
-        
-    </footer>
 
 
 </body>
