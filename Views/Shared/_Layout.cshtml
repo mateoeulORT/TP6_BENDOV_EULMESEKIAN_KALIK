@@ -10,7 +10,8 @@
 
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Matemasie&display=swap" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css2?family=Matemasie&family=New+Amsterdam&family=Teko:wght@300..700&display=swap" rel="stylesheet">
+    
 </head>
 <body>
 
@@ -21,24 +22,21 @@
                 <div class="navbar-collapse collapse d-sm-inline-flex justify-content-between">
                     <ul class="navbar-nav flex-grow-1">
                         <li class="nav-item">
-                            <a class="nav-link text-light" href='@Url.Action("Historia")'> <h5>Historia</h5></a>
+                            <a class="nav-link text-light" href='@Url.Action("Deportes")' > <h3>Deportes</h3></a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link text-light" href='@Url.Action("Deportes")' > <h5>Deportes</h5></a>
+                            <a class="nav-link text-light" href='@Url.Action("Paises")' > <h3>Paises</h3></a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link text-light" href='@Url.Action("Paises")' > <h5>Paises</h5></a>
+                            <a class="nav-link text-light"  href='@Url.Action("AgregarDeportista")'> <h3>Agregar Deportista</h3></a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link text-light"  href='@Url.Action("AgregarDeportista")'> <h5>Agregar Deportista</h5></a>
-                        </li>
-                        <li class="nav-item">
-                            <a class="nav-link text-light" href='@Url.Action("Creditos")'> <h5>Créditos</h5></a>
+                            <a class="nav-link text-light" href='@Url.Action("Creditos")'> <h3>Créditos</h3></a>
                         </li>
                     </ul>
                     
                 </div>
-                <H2>PARIS 2024</H2>
+                <H1>PARIS 2024</H1>
             </div>
         </nav>
     </header>
@@ -49,11 +47,21 @@
         </main>
     </div>
 
-    <footer class="border-top footer text-muted" data-bs-theme="dark">
-        <div class="container-fluid">
-            &copy; 2024 - TP06_BenDov_Eulmesekian_Kalik - <a asp-area="" asp-controller="Home" asp-action="Privacy">Privacy</a>
-        </div>
+
+
+    <footer class="py-3 my-4 bg-dark">
+        <ul class="nav justify-content-center border-bottom pb-3 mb-3 bg-dark">
+            <li class="nav-item"><a href="#" class="nav-link px-2 text-body-secondary">Home</a></li>
+            <li class="nav-item"><a href="#" class="nav-link px-2 text-body-secondary">Features</a></li>
+            <li class="nav-item"><a href="#" class="nav-link px-2 text-body-secondary">Pricing</a></li>
+            <li class="nav-item"><a href="#" class="nav-link px-2 text-body-secondary">FAQs</a></li>
+            <li class="nav-item"><a href="#" class="nav-link px-2 text-body-secondary">About</a></li>
+        </ul>
+        <p class="text-center text-body-secondary">© JJOO Paris 2024</p>
     </footer>
+
+            
+
 
 
     <script src="~/lib/jquery/dist/jquery.min.js"></script>

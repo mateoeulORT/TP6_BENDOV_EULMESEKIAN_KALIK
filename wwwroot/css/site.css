@@ -48,6 +48,7 @@ html, body {
   height: calc(100vh - 10px); /* Ocupa todo el alto de la ventana menos la altura de la barra de navegación */
   margin: 0;
   padding: 0;
+  margin-bottom: 5%;
 }
 .container-fluid {
   padding: 0 !important;
@@ -68,3 +69,24 @@ html, body {
   object-fit: cover; /* Hace que la imagen cubra todo el carrusel */
 }
 
+.contenedor-info{
+  width: 70%;
+  margin-top: 10%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  margin: 0 auto; /* Centra el contenedor en la página */
+  margin-bottom: 5%;
+}
+.index .noticias {
+  margin-top: 1%;
+  display: flex;
+  justify-content: space-around; 
+}
+.card-text{
+  color: white;
+}
+
+.medallero img{
+  width: 100%;
+}
