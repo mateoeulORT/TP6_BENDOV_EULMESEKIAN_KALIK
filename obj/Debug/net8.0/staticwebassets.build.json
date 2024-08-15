@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "Oh4zaCSZWuSYc3DcnObOw2RzXMC8wft/wEnXoiD4uoA=",
+  "Hash": "ms5c2a3mV6phDNT6+qpv3AvNRFs0de7cUF1ri92gXhM=",
   "Source": "TP06_BenDov_Eulmesekian_Kalik",
   "BasePath": "_content/TP06_BenDov_Eulmesekian_Kalik",
   "Mode": "Default",
@@ -205,6 +205,25 @@
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\img\\curry.png"
+    },
+    {
+      "Identity": "C:\\Users\\Mateo\\Desktop\\Programacion\\3er bim\\TP6_BENDOV_EULMESEKIAN_KALIK\\wwwroot\\img\\DEPORTES.jpg",
+      "SourceId": "TP06_BenDov_Eulmesekian_Kalik",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\Mateo\\Desktop\\Programacion\\3er bim\\TP6_BENDOV_EULMESEKIAN_KALIK\\wwwroot\\",
+      "BasePath": "_content/TP06_BenDov_Eulmesekian_Kalik",
+      "RelativePath": "img/DEPORTES.jpg",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "PreferTarget",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\img\\DEPORTES.jpg"
     },
     {
       "Identity": "C:\\Users\\Mateo\\Desktop\\Programacion\\3er bim\\TP6_BENDOV_EULMESEKIAN_KALIK\\wwwroot\\img\\duplantis.jpg",

@@ -5,7 +5,7 @@ public class DB
 {
     private List<Pais> _ListPaises = new List<Pais>();
     private List<Deportista> _ListaDeportistas = new List<Deportista>();
-    private static string _connectionString = @"Server=localhost;
+    private static string _connectionString = @"Server=localhost\SQLEXPRESS;
     DataBase=TP6_BENDOV_EULMESEKIAN;Trusted_Connection=True;";
     public static void AgregarDeportista(Deportista deportistaIng)
     {
@@ -20,7 +20,7 @@ public class DB
     {
         using (SqlConnection db = new SqlConnection(_connectionString))
         {
-            string sql = "DELETE FROM Deportista WHERE IdDeportista = @pIdDeporitsa";
+            string sql = "DELETE FROM Deportista WHERE IdDeportista = @pIdDeportista";
             db.Execute(sql, new { pIdDeportista = idDeportista });
         }
     }
