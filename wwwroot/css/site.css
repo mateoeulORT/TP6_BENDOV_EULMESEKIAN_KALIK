@@ -96,6 +96,10 @@ html, body {
 }
 
 /*            DEPORTES           */
+.deportes .contenedor-info h1{
+  text-align: center;
+}
+
 .columnas{
   display: grid;
   grid-template-columns: repeat(2, 1fr); /* Crea dos columnas de igual tamaño */
@@ -110,11 +114,14 @@ html, body {
   background-repeat: no-repeat;
   background-size: 100%;
   border-radius: 1%;
-
+}
+.lista-deportes h3{
+  margin-top: 13%;
+  margin-left: 2%;
 }
 
 
-.img-fondo {
+.deportes .img-fondo {
   display: block; 
   width: 100vw; 
   height: 100vh; 
@@ -136,4 +143,16 @@ html, body {
   font-optical-sizing:initial;
   font-weight: 400;
   font-style: normal;
+}
+
+/* --------------- PAISES ---------------*/
+.deportes .img-fondo {
+  display: block; 
+  width: 100vw; 
+  height: 100vh; 
+  position: relative; 
+  top: 0; 
+  left: 0; 
+  margin-bottom: 5%;
+  
 }

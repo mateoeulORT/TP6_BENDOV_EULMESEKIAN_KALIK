@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "A+M417J/t9OQnj5f/LgKvQJoPZpr7PGlYrEl2l5Sy2I=",
+  "Hash": "sXEVXMPw3iRFu5V5a7mD7mtaVIns6pIPI8LckNzC+/E=",
   "Source": "TP06_BenDov_Eulmesekian_Kalik",
   "BasePath": "_content/TP06_BenDov_Eulmesekian_Kalik",
   "Mode": "Default",
@@ -207,6 +207,25 @@
       "OriginalItemSpec": "wwwroot\\img\\curry.png"
     },
     {
+      "Identity": "C:\\Users\\48044168\\Desktop\\TP6_BENDOV_EULMESEKIAN_KALIK\\wwwroot\\img\\delegaciones.jpg",
+      "SourceId": "TP06_BenDov_Eulmesekian_Kalik",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\48044168\\Desktop\\TP6_BENDOV_EULMESEKIAN_KALIK\\wwwroot\\",
+      "BasePath": "_content/TP06_BenDov_Eulmesekian_Kalik",
+      "RelativePath": "img/delegaciones.jpg",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "PreferTarget",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\img\\delegaciones.jpg"
+    },
+    {
       "Identity": "C:\\Users\\48044168\\Desktop\\TP6_BENDOV_EULMESEKIAN_KALIK\\wwwroot\\img\\DEPORTES.jpg",
       "SourceId": "TP06_BenDov_Eulmesekian_Kalik",
       "SourceType": "Discovered",
@@ -243,6 +262,25 @@
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\img\\duplantis.jpg"
+    },
+    {
+      "Identity": "C:\\Users\\48044168\\Desktop\\TP6_BENDOV_EULMESEKIAN_KALIK\\wwwroot\\img\\fondo_fila.png",
+      "SourceId": "TP06_BenDov_Eulmesekian_Kalik",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\48044168\\Desktop\\TP6_BENDOV_EULMESEKIAN_KALIK\\wwwroot\\",
+      "BasePath": "_content/TP06_BenDov_Eulmesekian_Kalik",
+      "RelativePath": "img/fondo_fila.png",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "PreferTarget",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\img\\fondo_fila.png"
     },
     {
       "Identity": "C:\\Users\\48044168\\Desktop\\TP6_BENDOV_EULMESEKIAN_KALIK\\wwwroot\\img\\globo.jpg",

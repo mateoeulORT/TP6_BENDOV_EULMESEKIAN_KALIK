@@ -57,8 +57,16 @@
       "PackagePath": "staticwebassets\\img\\curry.png"
     },
     {
+      "Id": "C:\\Users\\48044168\\Desktop\\TP6_BENDOV_EULMESEKIAN_KALIK\\wwwroot\\img\\delegaciones.jpg",
+      "PackagePath": "staticwebassets\\img\\delegaciones.jpg"
+    },
+    {
       "Id": "C:\\Users\\48044168\\Desktop\\TP6_BENDOV_EULMESEKIAN_KALIK\\wwwroot\\img\\duplantis.jpg",
       "PackagePath": "staticwebassets\\img\\duplantis.jpg"
+    },
+    {
+      "Id": "C:\\Users\\48044168\\Desktop\\TP6_BENDOV_EULMESEKIAN_KALIK\\wwwroot\\img\\fondo_fila.png",
+      "PackagePath": "staticwebassets\\img\\fondo_fila.png"
     },
     {
       "Id": "C:\\Users\\48044168\\Desktop\\TP6_BENDOV_EULMESEKIAN_KALIK\\wwwroot\\img\\globo.jpg",
