@@ -5,7 +5,8 @@ public class DB
 {
     private List<Pais> _ListPaises = new List<Pais>();
     private List<Deportista> _ListaDeportistas = new List<Deportista>();
-    private static string _connectionString = @"Server=localhost\SQLEXPRESS;
+    //\SQLEXPRESS
+    private static string _connectionString = @"Server=localhost;
     DataBase=TP6_BENDOV_EULMESEKIAN;Trusted_Connection=True;";
     public static void AgregarDeportista(Deportista deportistaIng)
     {

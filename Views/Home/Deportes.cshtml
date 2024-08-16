@@ -6,19 +6,20 @@
 
 
         <div class="contenedor-info">
-            <h2 class="fuente">DEPORTES:</h2>
+            <h1 class="fuente">DEPORTES:</h1>
             <hr>
-            
-            @for(int i = 0; i < ViewBag.ListaDeportes.Count; i++)
-            {   
+            <div class="columnas"> 
+                @for(int i = 0; i < ViewBag.ListaDeportes.Count; i++)
+                {   
 
-                <div class="lista-deportes"> 
-                    <a href='@Url.Action("VerDetalleDeporte", new {ViewBag.ListaDeportes[i].idDeporte})'><img src="@Url.Content($"../img/{ViewBag.ListaDeportes[i].Foto}.png")" alt="logo-deporte" width="40px" height="40px" /></a>
-                    <a href='@Url.Action("VerDetalleDeporte", new {ViewBag.ListaDeportes[i].idDeporte})'><h3>@ViewBag.ListaDeportes[i].Nombre</h3></a>
-                </div>
+                    <div class="lista-deportes"> 
+                        <a href='@Url.Action("VerDetalleDeporte", new {ViewBag.ListaDeportes[i].idDeporte})'><img src="@Url.Content($"../img/{ViewBag.ListaDeportes[i].Foto}.png")" alt="logo-deporte" width="40px" height="40px" /></a>
+                        <a href='@Url.Action("VerDetalleDeporte", new {ViewBag.ListaDeportes[i].idDeporte})'><h3 class="fuente">@ViewBag.ListaDeportes[i].Nombre</h3></a>
+                    </div>
 
 
-            }
+                }
+            </div>
         </div>
 
         
