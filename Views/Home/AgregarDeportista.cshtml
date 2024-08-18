@@ -1,19 +1,41 @@
-<body class="Index">
-
-    <header>
-        
-
-    </header>
-    
+<body class="agregar-deportista">
 
     <main>    
+        <div><img src="../img/banner3.png"  class="banner" alt=""></div>
+
+        <div class="contenedor-info">
+            <h1>DATOS DEL JUGADOR:</h1>   
+            <hr>
+            <form action="GuardarDeportista" method="post">
+                <input type="text" placeholder="Nombre" name="Nombre" required>
+                <input type="text" placeholder="Apellido" name="Apellido" required>
+                <input type="text" placeholder="Foto" name="Foto" required>
+                <input type="date" name="FechaNacimiento" required>
+                
+                <select name="IdDeporte" id="" required>
+                    <option value="">Deporte:</option>
+                    @foreach (var deporte in ViewBag.ListaDeportes)
+                    {
+                        <option value="@deporte.IdDeporte">@deporte.Nombre</option>
+                    }
+                </select>
+                
+                <select name="IdPais" id="" required>
+                    <option value="">Pais:</option>
+                    @foreach (var pais in ViewBag.ListaPaises)
+                    {
+                        <option value="@pais.IdPais">@pais.Nombre</option>
+                    }
+                </select>
+
+                <input type="submit">
+                <input type="reset">
+        </form>
+        </div>
+
+        
+
 
     </main>
-
-    
-    <footer>
-        
-    </footer>
-
 
 </body>

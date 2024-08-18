@@ -2,7 +2,7 @@
 
 
     <main>
-        <div><img src="../img/deportes.jpg"  class="img-fondo" alt=""></div>
+        <div><img src="../img/banner.png"  class="banner" alt=""></div>
 
 
         <div class="contenedor-info">
@@ -13,8 +13,8 @@
                 {   
 
                     <div class="lista-deportes"> 
-                        <a href='@Url.Action("VerDetalleDeporte", new {ViewBag.ListaDeportes[i].idDeporte})'><img src="@Url.Content($"../img/{ViewBag.ListaDeportes[i].Foto}.png")" alt="logo-deporte" width="40px" height="40px" /></a>
-                        <a href='@Url.Action("VerDetalleDeporte", new {ViewBag.ListaDeportes[i].idDeporte})'><h3 class="fuente">@ViewBag.ListaDeportes[i].Nombre</h3></a>
+                        <a  href='@Url.Action("VerDetalleDeporte", new { idDeporte = ViewBag.ListaDeportes[i].IdDeporte })'><img src="@Url.Content($"../img/{ViewBag.ListaDeportes[i].Foto}.png")" alt="logo-deporte" width="40px" height="40px" /></a>
+                        <a  href='@Url.Action("VerDetalleDeporte", new { idDeporte = ViewBag.ListaDeportes[i].IdDeporte })'><h3 class="fuente">@ViewBag.ListaDeportes[i].Nombre</h3></a>
                     </div>
 
 

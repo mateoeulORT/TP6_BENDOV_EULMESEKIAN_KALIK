@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "lGqaOGzpvN1Gf6nimEDBCdo4nXydXG5ZJ5SsDdNOxiw=",
+  "Hash": "wlHm9Y4oE9Sc8gBysvBIuD/l6+urzvoXOjKtEl61a7M=",
   "Source": "TP06_BenDov_Eulmesekian_Kalik",
   "BasePath": "_content/TP06_BenDov_Eulmesekian_Kalik",
   "Mode": "Default",
@@ -205,6 +205,25 @@
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\img\\banner2.png"
+    },
+    {
+      "Identity": "C:\\Users\\Mateo\\Desktop\\Programacion\\3er bim\\TP6_BENDOV_EULMESEKIAN_KALIK\\wwwroot\\img\\banner3.png",
+      "SourceId": "TP06_BenDov_Eulmesekian_Kalik",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\Mateo\\Desktop\\Programacion\\3er bim\\TP6_BENDOV_EULMESEKIAN_KALIK\\wwwroot\\",
+      "BasePath": "_content/TP06_BenDov_Eulmesekian_Kalik",
+      "RelativePath": "img/banner3.png",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "PreferTarget",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\img\\banner3.png"
     },
     {
       "Identity": "C:\\Users\\Mateo\\Desktop\\Programacion\\3er bim\\TP6_BENDOV_EULMESEKIAN_KALIK\\wwwroot\\img\\brasil.jpg",

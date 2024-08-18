@@ -12,7 +12,7 @@ public class DB
     {
         using (SqlConnection db = new SqlConnection(_connectionString))
         {
-            string sql = "INSERT INTO Deportista (Apellido, Nombre, FechaNacimiento, Foto, IdPais, IdDeporte) VALUES (@pApellido, @pNombre, @pFechaNacimiento, @pFoto, @pIdPais, @pIdDeporte)";
+            string sql = "INSERT INTO Deportistas (Apellido, Nombre, FechaNacimiento, Foto, IdPais, IdDeporte) VALUES (@pApellido, @pNombre, @pFechaNacimiento, @pFoto, @pIdPais, @pIdDeporte)";
             db.Execute(sql, new { pApellido = deportistaIng.Apellido, pNombre = deportistaIng.Nombre, pFechaNacimiento = deportistaIng.FechaNacimiento, pFoto = deportistaIng.Foto, pIdPais = deportistaIng.IdPais, pIdDeporte = deportistaIng.IdDeporte});
         }
 
@@ -30,7 +30,7 @@ public class DB
         Deportes? r = null;
         using (SqlConnection db = new SqlConnection(_connectionString))
         {
-            string sql = "SELECT * FROM Deporte WHERE IdDeporte = @pIdDeporte";
+            string sql = "SELECT * FROM Deportes WHERE IdDeporte = @pIdDeporte";
             r = db.QueryFirstOrDefault<Deportes>(sql, new { pIdDeporte = idDeporte });
         }
         return r;
@@ -41,7 +41,7 @@ public class DB
         using (SqlConnection db = new SqlConnection(_connectionString))
         {
 
-            string sql = "SELECT * FROM Pais WHERE IdPais = @pIdPais";
+            string sql = "SELECT * FROM Paises WHERE IdPais = @pIdPais";
             r = db.QueryFirstOrDefault<Pais>(sql, new { pIdPais = IdPais });
         }
         return r;
@@ -62,7 +62,7 @@ public class DB
         List<Pais> _ListaPaises = new List<Pais>();
         using (SqlConnection db = new SqlConnection(_connectionString))
         {
-            string sql = "SELECT * FROM Paises";
+            string sql = "SELECT * FROM Paises ORDER BY Nombre";
             _ListaPaises = db.Query<Pais>(sql).ToList();
         }
         return _ListaPaises;
@@ -72,7 +72,7 @@ public class DB
         List<Deportes> _listaDeportes = new List<Deportes>();
         using (SqlConnection db = new SqlConnection(_connectionString))
         {
-            string sql = "SELECT * FROM Deportes";
+            string sql = "SELECT * FROM Deportes ORDER BY Nombre";
             _listaDeportes = db.Query<Deportes>(sql).ToList();
         }
         return _listaDeportes;
@@ -102,7 +102,7 @@ public class DB
          List<Deportista> _ListaDeportistas = new List<Deportista>();
         using (SqlConnection db = new SqlConnection(_connectionString))
         {
-            string sql = "SELECT * FROM Deportistas WHERE idDeporte = @pIdDeporte";
+            string sql = "SELECT * FROM Deportistas WHERE IdDeporte = @pIdDeporte";
             _ListaDeportistas = db.Query<Deportista>(sql).ToList();
         }  
         return _ListaDeportistas;

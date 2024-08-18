@@ -120,17 +120,6 @@ html, body {
 }
 
 
-.deportes .img-fondo {
-  display: block; 
-  width: 100vw; 
-  height: auto; 
-  position: relative; 
-  top: 0; 
-  left: 0; 
-  margin-bottom: 5%;
-  
-}
-
 .lista-deportes a{
   text-decoration:  none;
   color: black;
@@ -145,15 +134,6 @@ html, body {
 }
 
 /* --------------- PAISES ---------------*/
-.paises .img-fondo {
-  display: block; 
-  width: 100vw; 
-  height: auto; 
-  position: relative; 
-  top: 0; 
-  left: 0; 
-  margin-bottom: 5%;
-}
 .paises .contenedor-info{
   text-align: center;
 }
@@ -172,4 +152,43 @@ html, body {
   height: 95%;
   border-radius: 50%;
   object-fit: cover;
+}
+
+
+/* ---------------- AGREGAR DEPORTISTA --------------*/
+.banner{
+  display: block; 
+  width: 100vw; 
+  height: auto; 
+  position: relative; 
+  top: 0; 
+  left: 0; 
+  margin-bottom: 5%;
+}
+
+form{
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  margin: 0 auto;
+}
+input, select{
+  margin-bottom: 3%;
+}
+
+input[type="submit"]{
+  background-color: rgb(33, 207, 33);
+  border: 1px solid #ccc;
+}
+input[type="submit"]:hover{
+  background-color: rgb(31, 190, 31);
+}
+
+input[type="reset"]{
+  background-color: rgb(240, 255, 32);
+  border: 1px solid #ccc;
+  margin-top: -2%;
+}
+input[type="reset"]:hover{
+  background-color: rgb(213, 226, 29);
 }
