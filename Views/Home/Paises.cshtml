@@ -1,6 +1,28 @@
 <body class="paises">
 
+<main>
+        <div><img src="../img/banner2.png"  class="img-fondo" alt=""></div>
 
+
+        <div class="contenedor-info">
+            <h1 class="fuente">Nuestras delegaciones participantes</h1>
+            <hr>
+            <div class="columnas"> 
+                @for(int i = 0; i < ViewBag.ListaPaises.Count; i++)
+                {   
+                    <div class="lista-paises"> 
+                        <a href='@Url.Action("VerDetallePais", new {ViewBag.ListaPaises[i].IdPais})'><img src="@Url.Content($"../img/{ViewBag.ListaPaises[i].Bandera}.jpg")" alt="bandera"/></a>
+                        <a href='@Url.Action("VerDetallePais", new {ViewBag.ListaPaises[i].IdPais})'><h5>@ViewBag.ListaPaises[i].Nombre</h5></a>
+                        <h6>@ViewBag.ListaPaises[i].FechaFundacion.ToString("dd/MM/yyyy")</h6>
+                    </div>
+
+                }
+            </div>
+        </div>
+
+        
+    
+    </main>
 
 
 </body>

@@ -95,7 +95,7 @@ html, body {
   width: 100%;
 }
 
-/*            DEPORTES           */
+/* ----------------DEPORTES----------------------           */
 .deportes .contenedor-info h1{
   text-align: center;
 }
@@ -109,7 +109,6 @@ html, body {
 .lista-deportes{
   display: flex;
   align-items: center;
-  /*background-color: rgb(74, 119, 243);*/
   background-image: url("../img/fondo_fila.png");
   background-repeat: no-repeat;
   background-size: 100%;
@@ -124,7 +123,7 @@ html, body {
 .deportes .img-fondo {
   display: block; 
   width: 100vw; 
-  height: 100vh; 
+  height: auto; 
   position: relative; 
   top: 0; 
   left: 0; 
@@ -146,13 +145,31 @@ html, body {
 }
 
 /* --------------- PAISES ---------------*/
-.deportes .img-fondo {
+.paises .img-fondo {
   display: block; 
   width: 100vw; 
-  height: 100vh; 
+  height: auto; 
   position: relative; 
   top: 0; 
   left: 0; 
   margin-bottom: 5%;
-  
+}
+.paises .contenedor-info{
+  text-align: center;
+}
+
+.lista-paises a{
+  text-decoration:  none;
+  color: black;
+}
+.paises .columnas{
+  display: grid;
+  grid-template-columns: repeat(4, 1fr); /* Crea dos columnas de igual tamaño */
+  gap: 20px; /* Espacio entre los elementos */
+}
+.lista-paises img{
+  width: 80%;
+  height: 95%;
+  border-radius: 50%;
+  object-fit: cover;
 }
