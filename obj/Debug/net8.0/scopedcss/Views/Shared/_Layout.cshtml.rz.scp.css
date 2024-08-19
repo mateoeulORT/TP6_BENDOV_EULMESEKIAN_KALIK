@@ -73,6 +73,7 @@ button.accept-policy[b-jfonhjcamy] {
 
 
 .footer[b-jfonhjcamy] {
+  clear: both;
   width: 100%;
   height: auto;
   text-align: center;

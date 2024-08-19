@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "kioW8BjUj0kUt6HZjQD6ow0UG5xLImeA2K0CIYLgoWY=",
+  "Hash": "NNbjE98pkv9aCc6N66LiUW448p5FA/NCIgRQqVlvEBo=",
   "Source": "TP06_BenDov_Eulmesekian_Kalik",
   "BasePath": "_content/TP06_BenDov_Eulmesekian_Kalik",
   "Mode": "Default",
@@ -167,6 +167,25 @@
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\img\\argentina.jpg"
+    },
+    {
+      "Identity": "C:\\Users\\48044168\\Desktop\\TP6_BENDOV_EULMESEKIAN_KALIK\\wwwroot\\img\\banner-deportes.jpg",
+      "SourceId": "TP06_BenDov_Eulmesekian_Kalik",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\48044168\\Desktop\\TP6_BENDOV_EULMESEKIAN_KALIK\\wwwroot\\",
+      "BasePath": "_content/TP06_BenDov_Eulmesekian_Kalik",
+      "RelativePath": "img/banner-deportes.jpg",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "PreferTarget",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\img\\banner-deportes.jpg"
     },
     {
       "Identity": "C:\\Users\\48044168\\Desktop\\TP6_BENDOV_EULMESEKIAN_KALIK\\wwwroot\\img\\banner.png",

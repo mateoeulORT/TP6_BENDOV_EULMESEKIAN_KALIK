@@ -2,6 +2,32 @@
 
     <main>    
 
+        <img class="banner" src="../img/banner-deportes.jpg" </img>
+        
+
+
+        <div class="contenedor-info"> 
+            <div class="titulo-info">
+                <img src="@Url.Content($"{ViewBag.DatosDeporte.Foto}")" alt="foto-deporte" width=80px height=80px>
+                <h1>@ViewBag.DatosDeporte.Nombre</h1>
+            </div>
+            <hr>    
+
+            <div class="columnas">
+            @foreach (var deportista in  ViewBag.ListaDeportistasXDeporte)
+            {
+                <div class="card" style="width: 18rem;">
+                    <img src="@Url.Content($"{deportista.Foto}")" class="card-img-top" alt="foto-deportista">
+                    <div class="card-body">
+                        <h3 class="card-title">@deportista.Nombre  @deportista.Apellido</h3>
+                        <p class="card-text"></p>
+                        <a href="#" class="btn btn-primary">Ver detalle deportista</a>
+                    </div>
+                </div>
+            }
+            </div>
+        </div>
+
     </main>
 
 </body>

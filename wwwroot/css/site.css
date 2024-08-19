@@ -102,7 +102,7 @@ html, body {
 
 .columnas{
   display: grid;
-  grid-template-columns: repeat(2, 1fr); /* Crea dos columnas de igual tamaño */
+  grid-template-columns: repeat(4, 1fr); /* Crea dos columnas de igual tamaño */
   gap: 20px; /* Espacio entre los elementos */
 }
 
@@ -114,9 +114,12 @@ html, body {
   background-size: 100%;
   border-radius: 1%;
 }
+
 .lista-deportes h3{
-  margin-top: 13%;
-  margin-left: 2%;
+  margin-top: 3%;
+}
+.lista-deportes{
+  height: 100%;
 }
 
 
@@ -137,15 +140,26 @@ html, body {
 .paises .contenedor-info{
   text-align: center;
 }
-
-.lista-paises a{
-  text-decoration:  none;
+.paises .card-text{
   color: black;
 }
+
+
+.card-title{
+  font-family: "Teko", sans-serif;
+  font-optical-sizing:initial;
+  font-weight: 400;
+  font-style: normal;
+}
+
+.paises .card:hover{
+  scale: 1.1;
+}
+
 .paises .columnas{
   display: grid;
   grid-template-columns: repeat(4, 1fr); /* Crea dos columnas de igual tamaño */
-  gap: 20px; /* Espacio entre los elementos */
+  gap: 0.5%; /* Espacio entre los elementos */
 }
 .lista-paises img{
   width: 80%;
@@ -191,4 +205,31 @@ input[type="reset"]{
 }
 input[type="reset"]:hover{
   background-color: rgb(213, 226, 29);
+}
+
+
+
+/* ------------ DETALLE DEPORTES --------------*/
+.detalle-deporte .columnas{
+  display: grid;
+  grid-template-columns: repeat(4, 1fr); /* Crea dos columnas de igual tamaño */
+  gap: 20px; /* Espacio entre los elementos */
+}
+
+.titulo-info{
+  display: flex;
+  justify-content: left;
+  margin: 0;
+}
+.titulo-info h1{
+  font-size: 500%;
+}
+
+.card-body{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+.card-title{
+  text-align: center;
 }

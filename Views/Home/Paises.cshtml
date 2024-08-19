@@ -1,6 +1,6 @@
-<body class="paises">
 
-<main>
+
+
         <div><img src="../img/banner2.png"  class="banner" alt=""></div>
 
 
@@ -10,11 +10,16 @@
             <div class="columnas"> 
                 @for(int i = 0; i < ViewBag.ListaPaises.Count; i++)
                 {   
-                    <div class="lista-paises"> 
-                        <a href='@Url.Action("VerDetallePais", new {idPais = ViewBag.ListaPaises[i].IdPais})'><img src="@Url.Content($"../img/{ViewBag.ListaPaises[i].Bandera}.jpg")" alt="bandera"/></a>
-                        <a href='@Url.Action("VerDetallePais", new {idPais = ViewBag.ListaPaises[i].IdPais})'><h5>@ViewBag.ListaPaises[i].Nombre</h5></a>
-                        <h6>@ViewBag.ListaPaises[i].FechaFundacion.ToString("dd/MM/yyyy")</h6>
+
+                    <div class="card" style="width: 18rem;">
+                        <a href='@Url.Action("VerDetallePais", new {idPais = ViewBag.ListaPaises[i].IdPais})'><img src="@Url.Content($"{ViewBag.ListaPaises[i].Bandera}")" alt="bandera"  alt="paises" class="card-img-top" alt="logp_deporte"></a>
+                        <div class="card-body">
+                            <h3 class="card-title">@ViewBag.ListaPaises[i].Nombre</h3>
+                            <p class="card-text"> @ViewBag.ListaPaises[i].FechaFundacion.ToString("dd/MM/yyyy") </p>
+                            
+                        </div>
                     </div>
+
 
                 }
             </div>
@@ -22,7 +27,5 @@
 
         
     
-    </main>
 
 
-</body>
