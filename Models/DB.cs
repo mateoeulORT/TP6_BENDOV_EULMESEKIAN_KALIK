@@ -5,8 +5,8 @@ public class DB
 {
     private List<Pais> _ListPaises = new List<Pais>();
     private List<Deportista> _ListaDeportistas = new List<Deportista>();
-    //
-    private static string _connectionString = @"Server=localhost\SQLEXPRESS;
+    //\SQLEXPRESS
+    private static string _connectionString = @"Server=localhost;
     DataBase=TP6_BENDOV_EULMESEKIAN;Trusted_Connection=True;";
     public static void AgregarDeportista(Deportista deportistaIng)
     {
@@ -87,23 +87,24 @@ public class DB
         }
         return _ListaDeportistas;
     }
-    public static List<Deportista> ListarDeportistasXPais(int pIdPais)
+    public static List<Deportista> ListarDeportistasXPais(int idPais)
     {
         List<Deportista> _ListaDeportistas = new List<Deportista>();
         using (SqlConnection db = new SqlConnection(_connectionString))
         {
-            string sql = "SELECT * FROM Deportistas WHERE idPais = @pIdPais";
-            _ListaDeportistas = db.Query<Deportista>(sql).ToList();
+            string sql = "SELECT * FROM Deportistas WHERE IdPais = @pIdPais";
+            _ListaDeportistas = db.Query<Deportista>(sql, new { pIdPais = idPais }).ToList();
         }
         return _ListaDeportistas;
     }
-    public static List<Deportista> ListarDeportistasXDeporte(int pIdDeporte)
+    public static List<Deportista> ListarDeportistasXDeporte(int idDeporte)
     {
          List<Deportista> _ListaDeportistas = new List<Deportista>();
         using (SqlConnection db = new SqlConnection(_connectionString))
         {
             string sql = "SELECT * FROM Deportistas WHERE IdDeporte = @pIdDeporte";
-            _ListaDeportistas = db.Query<Deportista>(sql).ToList();
+            _ListaDeportistas = db.Query<Deportista>(sql, new { pIdDeporte = idDeporte }).ToList();
+            
         }  
         return _ListaDeportistas;
     }
