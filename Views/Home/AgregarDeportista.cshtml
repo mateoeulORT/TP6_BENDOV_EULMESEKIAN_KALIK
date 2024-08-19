@@ -1,41 +1,57 @@
-<body class="agregar-deportista">
+<section class="agregar-deportista">
 
-    <main>    
         <div><img src="../img/banner3.png"  class="banner" alt=""></div>
 
         <div class="contenedor-info">
             <h1>DATOS DEL JUGADOR:</h1>   
             <hr>
-            <form action="GuardarDeportista" method="post">
-                <input type="text" placeholder="Nombre" name="Nombre" required>
-                <input type="text" placeholder="Apellido" name="Apellido" required>
-                <input type="text" placeholder="Foto" name="Foto" required>
-                <input type="date" name="FechaNacimiento" required>
-                
-                <select name="IdDeporte" id="" required>
-                    <option value="">Deporte:</option>
-                    @foreach (var deporte in ViewBag.ListaDeportes)
-                    {
-                        <option value="@deporte.IdDeporte">@deporte.Nombre</option>
-                    }
-                </select>
-                
-                <select name="IdPais" id="" required>
-                    <option value="">Pais:</option>
-                    @foreach (var pais in ViewBag.ListaPaises)
-                    {
-                        <option value="@pais.IdPais">@pais.Nombre</option>
-                    }
-                </select>
+            <div class="contenido">
+                <form action="GuardarDeportista" method="post">
+                    <input type="text" placeholder="URL Foto" name="Foto" required id="foto">
+                    <input type="text" placeholder="Nombre" name="Nombre" required id="nombre">
+                    <input type="text" placeholder="Apellido" name="Apellido" required id="apellido">
+                    <input type="date" name="FechaNacimiento" required>
+                    
+                    <select name="IdDeporte" id="deporte" required>
+                        <option value="">Deporte:</option>
+                        @foreach (var deporte in ViewBag.ListaDeportes)
+                        {
+                            <option value="@deporte.IdDeporte" data-logo="@deporte.Foto">@deporte.Nombre</option>
+                        }
+                    </select>
+                    
+                    <select name="IdPais" id="pais" required>
+                        <option value="">Pais:</option>
+                        @foreach (var pais in ViewBag.ListaPaises)
+                        {
+                            <option value="@pais.IdPais" data-flag="@pais.Bandera">@pais.Nombre</option>
+                        }
+                    </select>
 
-                <input type="submit">
-                <input type="reset">
-        </form>
+                    <input type="submit" value="ENVIAR">
+                    <input type="reset" value="REINICIAR">
+                </form>
+
+                        
+                <div class="card" style="width: 14rem;">
+                    <img src="" class="card-img-top" alt="">
+                    <div class="card-body">
+                        <h3 class="card-title" id="nombre-apellido-jugador"></h3>
+                        <p class="card-text" id="fecha-nacimiento-jugador"></p>
+                        <div class="deporte-info">
+                            <h5 class="card-text" id="deporte-jugador"></h5>
+                            <img class="deporte-logo" id="logo-deporte" alt="">
+                        </div>
+                        <img class="card-text" id="pais-jugador" alt="">
+
+                    </div>
+                </div>
+
+            </div>
         </div>
 
-        
 
 
-    </main>
+</section>
 
-</body>
+<script src="../js/card.js"></script>

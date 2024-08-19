@@ -1,7 +1,7 @@
-<body class="deportes">
+<section class="deportes">
 
 
-    <main>
+
         <div><img src="../img/banner.png"  class="banner" alt=""></div>
 
 
@@ -10,31 +10,14 @@
             <hr>
             <div class="columnas"> 
                 @for(int i = 0; i < ViewBag.ListaDeportes.Count; i++)
-                {   
-
-                    <div class="card" style="width: 18rem;">
-                        <img src="@Url.Content($"{ViewBag.ListaDeportes[i].Foto}")" alt="logo-deporte" class="card-img-top" alt="logp_deporte">
-                        <div class="card-body">
-                            <h3 class="card-title">@ViewBag.ListaDeportes[i].Nombre</h3>
-                            <p class="card-text"></p>
-                            <a href='@Url.Action("VerDetalleDeporte", new { idDeporte = ViewBag.ListaDeportes[i].IdDeporte })' class="btn btn-primary">Ver detalle deporte</a>
-                        </div>
+                {          
+                    <div class="lista-deportes" data-image="@Url.Content($"{ViewBag.ListaDeportes[i].Foto}")"> 
+                      <!-- <a  href='@Url.Action("VerDetalleDeporte", new { idDeporte = ViewBag.ListaDeportes[i].IdDeporte })'><img src="@Url.Content($"{ViewBag.ListaDeportes[i].Foto}")" class="logo-deporte" alt="logo-deporte" width="40px" height="40px" /></a>  -->
+                      <a  href='@Url.Action("VerDetalleDeporte", new { idDeporte = ViewBag.ListaDeportes[i].IdDeporte })'><h3 class="fuente">@ViewBag.ListaDeportes[i].Nombre</h3></a>
                     </div>
-
-                    //<div class="lista-deportes"> 
-                      //  <a  href='@Url.Action("VerDetalleDeporte", new { idDeporte = ViewBag.ListaDeportes[i].IdDeporte })'><img src="@Url.Content($"{ViewBag.ListaDeportes[i].Foto}")" alt="logo-deporte" width="40px" height="40px" /></a>
-                        //<a  href='@Url.Action("VerDetalleDeporte", new { idDeporte = ViewBag.ListaDeportes[i].IdDeporte })'><h3 class="fuente">@ViewBag.ListaDeportes[i].Nombre</h3></a>
-                    //</div>
-
-
                 }
             </div>
         </div>
 
-        
-    
-    </main>
 
-
-
-</body>
+</section>
