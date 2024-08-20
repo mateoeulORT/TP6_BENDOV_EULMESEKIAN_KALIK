@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "9l4pABaGp9ooeCJOH+Mxt3H0OXod4KcCA0Lyag83gP0=",
+  "Hash": "cN+I7OYGHA9zaHKis6xjCL7T8SK68PRLz+9a4PbRBJQ=",
   "Source": "TP06_BenDov_Eulmesekian_Kalik",
   "BasePath": "_content/TP06_BenDov_Eulmesekian_Kalik",
   "Mode": "Default",
@@ -433,6 +433,25 @@
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\js\\card.js"
+    },
+    {
+      "Identity": "C:\\Users\\Mateo\\Desktop\\Programacion\\3er bim\\TP6_BENDOV_EULMESEKIAN_KALIK\\wwwroot\\js\\deportes.js",
+      "SourceId": "TP06_BenDov_Eulmesekian_Kalik",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\Mateo\\Desktop\\Programacion\\3er bim\\TP6_BENDOV_EULMESEKIAN_KALIK\\wwwroot\\",
+      "BasePath": "_content/TP06_BenDov_Eulmesekian_Kalik",
+      "RelativePath": "js/deportes.js",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "PreferTarget",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\js\\deportes.js"
     },
     {
       "Identity": "C:\\Users\\Mateo\\Desktop\\Programacion\\3er bim\\TP6_BENDOV_EULMESEKIAN_KALIK\\wwwroot\\js\\site.js",

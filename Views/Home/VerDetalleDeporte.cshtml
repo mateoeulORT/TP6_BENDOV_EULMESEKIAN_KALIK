@@ -16,7 +16,7 @@
             <div class="columnas">
             @foreach (var deportista in  ViewBag.ListaDeportistasXDeporte)
             {
-                <div class="card" style="width: 18rem;">
+                <div class="card" style="width: 14rem;">
                     <img src="@Url.Content($"{deportista.Foto}")" class="card-img-top" alt="foto-deportista">
                     <div class="card-body">
                         <h3 class="card-title">@deportista.Nombre  @deportista.Apellido</h3>
