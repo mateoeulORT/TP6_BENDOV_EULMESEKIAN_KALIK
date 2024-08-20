@@ -222,6 +222,7 @@ html, body {
   display: block; 
   width: 100%; 
   height: auto; 
+  margin-top: 0;
   margin-bottom: 5%;
 }
 .agregar-deportista .card{
@@ -318,9 +319,6 @@ input[type="reset"]:hover {
   background-color: rgb(223, 219, 14);
 }
 
-footer{
-  clear: both;
-}
 
 
 /* ------------ DETALLE DEPORTES --------------*/
