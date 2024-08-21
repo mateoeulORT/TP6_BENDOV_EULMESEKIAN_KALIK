@@ -223,6 +223,10 @@ html, body {
   width: 100%; /* Asegúrate de que las imágenes ocupen todo el ancho */
 }
 
+.highlight {
+  border: 2px solid #fff; /* O cualquier estilo que prefieras para resaltar */
+  transition: background-color 0.3s ease, color 0.3s ease; /* Transición suave */
+}
 
 /* ---------------- AGREGAR DEPORTISTA --------------*/
 .banner {

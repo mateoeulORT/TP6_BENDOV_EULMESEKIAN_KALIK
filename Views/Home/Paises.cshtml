@@ -8,7 +8,8 @@
     <div class="contenedor-info">
         <h1 class="fuente">Nuestras delegaciones participantes</h1>
         <hr>
-           
+        <input type="text" id="searchInput" autocomplete="off" placeholder="Buscar país..." onkeyup="searchCountry()">
+
         <div class="columnas"> 
             @for(int i = 0; i < ViewBag.ListaPaises.Count; i++)
             {   
@@ -26,6 +27,6 @@
     </div> 
 
 
-    
+    <script src="../js/buscador.js"></script>
 
 

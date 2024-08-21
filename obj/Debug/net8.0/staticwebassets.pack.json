@@ -97,6 +97,10 @@
       "PackagePath": "staticwebassets\\img\\tute.jpg"
     },
     {
+      "Id": "C:\\Users\\Mateo\\Desktop\\Programacion\\3er bim\\TP6_BENDOV_EULMESEKIAN_KALIK\\wwwroot\\js\\buscador.js",
+      "PackagePath": "staticwebassets\\js\\buscador.js"
+    },
+    {
       "Id": "C:\\Users\\Mateo\\Desktop\\Programacion\\3er bim\\TP6_BENDOV_EULMESEKIAN_KALIK\\wwwroot\\js\\card.js",
       "PackagePath": "staticwebassets\\js\\card.js"
     },
