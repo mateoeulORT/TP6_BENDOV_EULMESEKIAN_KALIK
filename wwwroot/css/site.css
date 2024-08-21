@@ -189,7 +189,9 @@ html, body {
 .paises .card-text{
   color: black;
 }
-
+.paises .card{
+  width: 10%;
+}
 
 .card-title{
   font-family: "Teko", sans-serif;
@@ -202,18 +204,23 @@ html, body {
   scale: 1.05;
 }
 
-.paises .columnas{
-
-  justify-content: center;
+.paises .columnas {
   display: grid;
-  grid-template-columns: repeat(5, 1fr); /* Crea dos columnas de igual tamaño */
-  gap: 1%; /* Espacio entre los elementos */
+  grid-template-columns: repeat(5, 1fr); 
+  place-content: center; 
+
 }
 
-.paises .card-img-top{
+.paises .card {
+  margin: 0 10px 20px 10px; /* Margen a la derecha e izquierda y un margen inferior */
+  
+}
+
+
+.paises .card-img-top {
   max-height: 110px;
   object-fit: cover;
-  border-bottom: 1px solid rgb(168, 168, 168);
+  width: 100%; /* Asegúrate de que las imágenes ocupen todo el ancho */
 }
 
 
@@ -361,9 +368,20 @@ input[type="reset"]:hover {
   flex-direction: row;
   height: 50%;
 }
+.detalle-deportista a, .detalle-deporte a{
+  width: 100%;
+  margin-top: 4%;
+  margin-right: 1%;
+  border: none;
+  background-color: #343a40;
+}
+.detalle-deportista a:hover, .detalle-deporte  a:hover{
+  background-color: #444c53;
+}
+
 
 .foto-deportista{
-  border: 1px solid black;
+
   width: 40%;
   margin-right: 5%;
 

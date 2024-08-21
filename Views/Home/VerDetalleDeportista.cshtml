@@ -15,8 +15,8 @@
             <div class="info-deportista">
                 <h1>@ViewBag.DatosDeportista.Nombre @ViewBag.DatosDeportista.Apellido</h1>
                 <h2>@ViewBag.DatosDeportista.FechaNacimiento.ToString("dd/MM/yyyy")</h2>
-                <a href='@Url.Action("VerDetalleDeporte", new {idDeporte = @ViewBag.DatosDeportista.IdDeporte})' class="btn btn-primary bg-dark">Ir al deporte</a>
-                <a href='@Url.Action("VerDetallePais", new {idPais = @ViewBag.DatosDeportista.IdPais})' class="btn btn-primary bg-dark">Ir al pais</a>
+                <a href='@Url.Action("VerDetalleDeporte", new {idDeporte = @ViewBag.DatosDeportista.IdDeporte})' class="btn btn-primary">Ir al deporte</a>
+                <a href='@Url.Action("VerDetallePais", new {idPais = @ViewBag.DatosDeportista.IdPais})' class="btn btn-primary">Ir al pais</a>
             </div>
         </div>
             
