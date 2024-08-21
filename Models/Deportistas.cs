@@ -10,4 +10,5 @@ public class Deportista
     public int IdPais {get; set;}
     public int IdDeporte {get; set;}
 
+
 }

@@ -52,7 +52,7 @@ public class DB
         using (SqlConnection db = new SqlConnection(_connectionString))
         {
 
-            string sql = "SELECT * FROM Deportista WHERE IdDeportista = @pIdDeportista";
+            string sql = "SELECT * FROM Deportistas WHERE IdDeportista = @pIdDeportista";
             r = db.QueryFirstOrDefault<Deportista>(sql, new { pIdDeportista = idDeportista });
         }
         return r;

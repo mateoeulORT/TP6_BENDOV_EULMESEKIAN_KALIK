@@ -1,19 +1,26 @@
-<body class="Index">
-
-    <header>
-        
-
-    </header>
+<section class="detalle-deportista">
     
+    <img class="banner" src="../img/banner-deportes.jpg" </img>
 
-    <main>    
-
-    </main>
-
-    
-    <footer>
+    <div class="contenedor-info"> 
+        <div class="titulo-info">
+            <h1>Deportista</h1>
+        </div>
+        <hr>    
         
-    </footer>
+        <div class="contenido">
+            <div class="foto-deportista">
+                <img src="@Url.Content($"{@ViewBag.DatosDeportista.Foto}")" alt="">
+            </div>
+            <div class="info-deportista">
+                <h1>@ViewBag.DatosDeportista.Nombre @ViewBag.DatosDeportista.Apellido</h1>
+                <h2>@ViewBag.DatosDeportista.FechaNacimiento.ToString("dd/MM/yyyy")</h2>
+                <a href='@Url.Action("VerDetalleDeporte", new {idDeporte = @ViewBag.DatosDeportista.IdDeporte})' class="btn btn-primary bg-dark">Ir al deporte</a>
+                <a href='@Url.Action("VerDetallePais", new {idPais = @ViewBag.DatosDeportista.IdPais})' class="btn btn-primary bg-dark">Ir al pais</a>
+            </div>
+        </div>
+            
 
+    </div>
 
-</body>
+</section>

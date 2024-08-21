@@ -1,8 +1,31 @@
-<body class="Index">
+<section class="detalle-deporte">
 
 
-    <main>    
+        <img class="banner" src="../img/banner-deportes.jpg" </img>
+        
 
-    </main>
+        <div class="contenedor-info"> 
+            <div class="titulo-info">
+                <img src="@Url.Content($"{ViewBag.DatosPais.Bandera}")" alt="foto-pais" width=100px height=70px>
+                <h1>@ViewBag.DatosPais.Nombre</h1>
+            </div>
+            <hr>    
 
-</body>
+            <div class="columnas">
+            @foreach (var deportista in ViewBag.ListaDeportistasXPais)
+            {
+                <div class="card" style="width: 14rem;">
+                    <img src="@Url.Content($"{deportista.Foto}")" class="card-img-top" alt="foto-deportista">
+                    <div class="card-body">
+                        <h3 class="card-title">@deportista.Nombre  @deportista.Apellido</h3>
+                        <p class="card-text"></p>
+                        <a href='@Url.Action("VerDetalleDeportista", new { idDeportista = deportista.IdDeportista})' class="btn btn-primary bg-dark">Ver detalle deportista</a>
+                    </div>
+                </div>
+            }
+            </div>
+        </div>
+
+
+
+</section>

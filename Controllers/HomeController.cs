@@ -37,9 +37,9 @@ public class HomeController : Controller
         ViewBag.ListaDeportistasXPais = DB.ListarDeportistasXPais(idPais);
         return View();
     }
-    public IActionResult VerDetalleDeporitsta(int idDeporitsta)
+    public IActionResult VerDetalleDeportista(int idDeportista)
     {
-        ViewBag.DatosDeportista = DB.VerInfoDeportista(idDeporitsta);
+        ViewBag.DatosDeportista = DB.VerInfoDeportista(idDeportista);
         return View();
     }
     public IActionResult AgregarDeportista()

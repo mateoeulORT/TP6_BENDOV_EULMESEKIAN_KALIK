@@ -1,10 +1,8 @@
-<body class="detalle-deporte">
+<section class="detalle-deporte">
 
-    <main>    
 
         <img class="banner" src="../img/banner-deportes.jpg" </img>
         
-
 
         <div class="contenedor-info"> 
             <div class="titulo-info">
@@ -21,13 +19,13 @@
                     <div class="card-body">
                         <h3 class="card-title">@deportista.Nombre  @deportista.Apellido</h3>
                         <p class="card-text"></p>
-                        <a href="#" class="btn btn-primary">Ver detalle deportista</a>
+                        <a href='@Url.Action("VerDetalleDeportista", new { idDeportista = deportista.IdDeportista})' class="btn btn-primary bg-dark">Ver detalle deportista</a>
                     </div>
                 </div>
             }
             </div>
         </div>
 
-    </main>
 
-</body>
+
+</section>

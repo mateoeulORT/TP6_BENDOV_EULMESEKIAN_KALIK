@@ -37,6 +37,14 @@
       "PackagePath": "staticwebassets\\img\\banner3.png"
     },
     {
+      "Id": "C:\\Users\\Mateo\\Desktop\\Programacion\\3er bim\\TP6_BENDOV_EULMESEKIAN_KALIK\\wwwroot\\img\\chechu.jpg",
+      "PackagePath": "staticwebassets\\img\\chechu.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Mateo\\Desktop\\Programacion\\3er bim\\TP6_BENDOV_EULMESEKIAN_KALIK\\wwwroot\\img\\ciro.jpg",
+      "PackagePath": "staticwebassets\\img\\ciro.jpg"
+    },
+    {
       "Id": "C:\\Users\\Mateo\\Desktop\\Programacion\\3er bim\\TP6_BENDOV_EULMESEKIAN_KALIK\\wwwroot\\img\\clausura.jpg",
       "PackagePath": "staticwebassets\\img\\clausura.jpg"
     },
@@ -79,6 +87,10 @@
     {
       "Id": "C:\\Users\\Mateo\\Desktop\\Programacion\\3er bim\\TP6_BENDOV_EULMESEKIAN_KALIK\\wwwroot\\img\\rugby.png",
       "PackagePath": "staticwebassets\\img\\rugby.png"
+    },
+    {
+      "Id": "C:\\Users\\Mateo\\Desktop\\Programacion\\3er bim\\TP6_BENDOV_EULMESEKIAN_KALIK\\wwwroot\\img\\tute.jpg",
+      "PackagePath": "staticwebassets\\img\\tute.jpg"
     },
     {
       "Id": "C:\\Users\\Mateo\\Desktop\\Programacion\\3er bim\\TP6_BENDOV_EULMESEKIAN_KALIK\\wwwroot\\js\\card.js",
