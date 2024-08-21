@@ -112,8 +112,8 @@ html, body {
   display: flex;
   flex-direction: column;
   width: 55%;
-  overflow-y: auto; /* Permite scroll vertical */
-  max-height: 400px; /* Ajusta la altura máxima del contenedor */
+  overflow-y: auto; 
+  max-height: 400px; 
 }
 .contenedor-izq{
 
@@ -151,7 +151,7 @@ html, body {
 .lista-deportes:hover{
   background-color: #343a40;
   transform: translateY(-5px); /* Levantar ligeramente al pasar el ratón */
-  box-shadow: 0 8px 12px rgba(0, 0, 0, 0.2); /* Aumentar la sombra al hacer hover */
+  box-shadow: 0 8px 12px rgba(0, 0, 0, 0.2); 
 }
 .lista-deportes:hover img{
   display: block;
@@ -224,8 +224,8 @@ html, body {
 }
 
 .highlight {
-  border: 2px solid #fff; /* O cualquier estilo que prefieras para resaltar */
-  transition: background-color 0.3s ease, color 0.3s ease; /* Transición suave */
+  border: 2px solid #fff; 
+  transition: background-color 0.3s ease, color 0.3s ease; 
 }
 
 /* ---------------- AGREGAR DEPORTISTA --------------*/
